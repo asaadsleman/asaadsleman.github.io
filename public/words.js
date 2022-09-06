@@ -110,7 +110,7 @@ function split_to_chunks(str, chunk_size) {
     const chunk_inds = Array.from(Array(str.length / chunk_size).keys());
     return chunk_inds.map(function(i) {return str.slice(i * chunk_size, (i + 1) * chunk_size)});
 }
-
+/*
 function calculate_meduyeket(date) {
     const [day, month, year] = date.split('.').map(function(x) {return parseInt(x);});
     const start_ts = new Date(2022, 0, 1).getTime();
@@ -119,5 +119,6 @@ function calculate_meduyeket(date) {
     const ind = (day_number * 5) % POSSIBLE_MEDUYAKOT.length;
     return POSSIBLE_MEDUYAKOT.slice(ind, ind + 5);
 }
+*/
 
 const WORDS = new Set(split_to_chunks(CONCATED_WORDS, 5));
