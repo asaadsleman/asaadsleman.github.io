@@ -228,7 +228,7 @@ async function fill_success_details() {
     }
 
     let all_results = await getFormattedResults();
-
+    // TODO: add hint counter to results
     document.getElementById('stats-games').innerText = all_results.length;
     let wins = 0, streak = 0, max_streak = 0;
     let histogram = [0, 0, 0, 0, 0, 0, 0];
