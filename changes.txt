@@ -1,0 +1,6 @@
+TODO LIST - PROJECT:
+1- simple words LIST
+2- Guess translation
+3- Add 'solved with hint' to statistics
+4- Prev games button - not included with statistics
+5- 
